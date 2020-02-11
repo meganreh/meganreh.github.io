@@ -1,5 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+
+
 
 /*
 	Story by HTML5 UP
@@ -191,7 +195,16 @@ input, select, textarea {
 			font-size: 1.25rem;
 		}
 
-	h1, h2, h3, h4, h5, h6 {
+h1, {
+    font-family: "Source Sans Pro", Helvetica, serif;
+    font-weight: 300;
+    line-height: 1.375;
+    letter-spacing: 0.0em;
+    margin: 0 0 1rem 0;
+  }
+
+	h2, h3, h4, h5, h6 {
+    font-family: "Lora", Helvetica, sans-serif;
 		font-weight: 300;
 		line-height: 1.375;
 		letter-spacing: 0.0em;
@@ -8575,7 +8588,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color5 {
-			background-color: #7794ce;
+			background-color: #3EB9C8;
 		}
 
 		#wrapper > .color6 {
